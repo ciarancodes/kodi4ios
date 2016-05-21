@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914BACD31CF086A600360E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BACD21CF086A600360E77 /* AppDelegate.swift */; };
+		914BACD51CF086A600360E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BACD41CF086A600360E77 /* ViewController.swift */; };
+		914BACD81CF086A600360E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914BACD61CF086A600360E77 /* Main.storyboard */; };
+		914BACDB1CF086A600360E77 /* Kodi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 914BACD91CF086A600360E77 /* Kodi.xcdatamodeld */; };
+		914BACDD1CF086A600360E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914BACDC1CF086A600360E77 /* Assets.xcassets */; };
+		914BACE01CF086A600360E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914BACDE1CF086A600360E77 /* LaunchScreen.storyboard */; };
+		914BACEB1CF086A600360E77 /* KodiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BACEA1CF086A600360E77 /* KodiTests.swift */; };
+		914BACF61CF086A600360E77 /* KodiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BACF51CF086A600360E77 /* KodiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		914BACE71CF086A600360E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914BACC71CF086A600360E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914BACCE1CF086A600360E77;
+			remoteInfo = Kodi;
+		};
+		914BACF21CF086A600360E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914BACC71CF086A600360E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914BACCE1CF086A600360E77;
+			remoteInfo = Kodi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		914BACCF1CF086A600360E77 /* Kodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914BACD21CF086A600360E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		914BACD41CF086A600360E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		914BACD71CF086A600360E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914BACDA1CF086A600360E77 /* Kodi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kodi.xcdatamodel; sourceTree = "<group>"; };
+		914BACDC1CF086A600360E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914BACDF1CF086A600360E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914BACE11CF086A600360E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914BACE61CF086A600360E77 /* KodiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		914BACEA1CF086A600360E77 /* KodiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodiTests.swift; sourceTree = "<group>"; };
+		914BACEC1CF086A600360E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914BACF11CF086A600360E77 /* KodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		914BACF51CF086A600360E77 /* KodiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodiUITests.swift; sourceTree = "<group>"; };
+		914BACF71CF086A600360E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914BACCC1CF086A600360E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BACE31CF086A600360E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BACEE1CF086A600360E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914BACC61CF086A600360E77 = {
+			isa = PBXGroup;
+			children = (
+				914BACD11CF086A600360E77 /* Kodi */,
+				914BACE91CF086A600360E77 /* KodiTests */,
+				914BACF41CF086A600360E77 /* KodiUITests */,
+				914BACD01CF086A600360E77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		914BACD01CF086A600360E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914BACCF1CF086A600360E77 /* Kodi.app */,
+				914BACE61CF086A600360E77 /* KodiTests.xctest */,
+				914BACF11CF086A600360E77 /* KodiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914BACD11CF086A600360E77 /* Kodi */ = {
+			isa = PBXGroup;
+			children = (
+				914BACD21CF086A600360E77 /* AppDelegate.swift */,
+				914BACD41CF086A600360E77 /* ViewController.swift */,
+				914BACD61CF086A600360E77 /* Main.storyboard */,
+				914BACDC1CF086A600360E77 /* Assets.xcassets */,
+				914BACDE1CF086A600360E77 /* LaunchScreen.storyboard */,
+				914BACE11CF086A600360E77 /* Info.plist */,
+				914BACD91CF086A600360E77 /* Kodi.xcdatamodeld */,
+			);
+			path = Kodi;
+			sourceTree = "<group>";
+		};
+		914BACE91CF086A600360E77 /* KodiTests */ = {
+			isa = PBXGroup;
+			children = (
+				914BACEA1CF086A600360E77 /* KodiTests.swift */,
+				914BACEC1CF086A600360E77 /* Info.plist */,
+			);
+			path = KodiTests;
+			sourceTree = "<group>";
+		};
+		914BACF41CF086A600360E77 /* KodiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				914BACF51CF086A600360E77 /* KodiUITests.swift */,
+				914BACF71CF086A600360E77 /* Info.plist */,
+			);
+			path = KodiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914BACCE1CF086A600360E77 /* Kodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914BACFA1CF086A600360E77 /* Build configuration list for PBXNativeTarget "Kodi" */;
+			buildPhases = (
+				914BACCB1CF086A600360E77 /* Sources */,
+				914BACCC1CF086A600360E77 /* Frameworks */,
+				914BACCD1CF086A600360E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kodi;
+			productName = Kodi;
+			productReference = 914BACCF1CF086A600360E77 /* Kodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		914BACE51CF086A600360E77 /* KodiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914BACFD1CF086A600360E77 /* Build configuration list for PBXNativeTarget "KodiTests" */;
+			buildPhases = (
+				914BACE21CF086A600360E77 /* Sources */,
+				914BACE31CF086A600360E77 /* Frameworks */,
+				914BACE41CF086A600360E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914BACE81CF086A600360E77 /* PBXTargetDependency */,
+			);
+			name = KodiTests;
+			productName = KodiTests;
+			productReference = 914BACE61CF086A600360E77 /* KodiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		914BACF01CF086A600360E77 /* KodiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914BAD001CF086A600360E77 /* Build configuration list for PBXNativeTarget "KodiUITests" */;
+			buildPhases = (
+				914BACED1CF086A600360E77 /* Sources */,
+				914BACEE1CF086A600360E77 /* Frameworks */,
+				914BACEF1CF086A600360E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914BACF31CF086A600360E77 /* PBXTargetDependency */,
+			);
+			name = KodiUITests;
+			productName = KodiUITests;
+			productReference = 914BACF11CF086A600360E77 /* KodiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914BACC71CF086A600360E77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ciaran Dennehy";
+				TargetAttributes = {
+					914BACCE1CF086A600360E77 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3BZ4Y6CLUT;
+					};
+					914BACE51CF086A600360E77 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3BZ4Y6CLUT;
+						TestTargetID = 914BACCE1CF086A600360E77;
+					};
+					914BACF01CF086A600360E77 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3BZ4Y6CLUT;
+						TestTargetID = 914BACCE1CF086A600360E77;
+					};
+				};
+			};
+			buildConfigurationList = 914BACCA1CF086A600360E77 /* Build configuration list for PBXProject "Kodi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914BACC61CF086A600360E77;
+			productRefGroup = 914BACD01CF086A600360E77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914BACCE1CF086A600360E77 /* Kodi */,
+				914BACE51CF086A600360E77 /* KodiTests */,
+				914BACF01CF086A600360E77 /* KodiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914BACCD1CF086A600360E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BACE01CF086A600360E77 /* LaunchScreen.storyboard in Resources */,
+				914BACDD1CF086A600360E77 /* Assets.xcassets in Resources */,
+				914BACD81CF086A600360E77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BACE41CF086A600360E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BACEF1CF086A600360E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914BACCB1CF086A600360E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BACD51CF086A600360E77 /* ViewController.swift in Sources */,
+				914BACD31CF086A600360E77 /* AppDelegate.swift in Sources */,
+				914BACDB1CF086A600360E77 /* Kodi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BACE21CF086A600360E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BACEB1CF086A600360E77 /* KodiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BACED1CF086A600360E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BACF61CF086A600360E77 /* KodiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		914BACE81CF086A600360E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914BACCE1CF086A600360E77 /* Kodi */;
+			targetProxy = 914BACE71CF086A600360E77 /* PBXContainerItemProxy */;
+		};
+		914BACF31CF086A600360E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914BACCE1CF086A600360E77 /* Kodi */;
+			targetProxy = 914BACF21CF086A600360E77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		914BACD61CF086A600360E77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914BACD71CF086A600360E77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914BACDE1CF086A600360E77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914BACDF1CF086A600360E77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914BACF81CF086A600360E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		914BACF91CF086A600360E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914BACFB1CF086A600360E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ohciaran.Kodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		914BACFC1CF086A600360E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ohciaran.Kodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		914BACFE1CF086A600360E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ohciaran.KodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kodi.app/Kodi";
+			};
+			name = Debug;
+		};
+		914BACFF1CF086A600360E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ohciaran.KodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kodi.app/Kodi";
+			};
+			name = Release;
+		};
+		914BAD011CF086A600360E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ohciaran.KodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kodi;
+			};
+			name = Debug;
+		};
+		914BAD021CF086A600360E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ohciaran.KodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kodi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914BACCA1CF086A600360E77 /* Build configuration list for PBXProject "Kodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914BACF81CF086A600360E77 /* Debug */,
+				914BACF91CF086A600360E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914BACFA1CF086A600360E77 /* Build configuration list for PBXNativeTarget "Kodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914BACFB1CF086A600360E77 /* Debug */,
+				914BACFC1CF086A600360E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		914BACFD1CF086A600360E77 /* Build configuration list for PBXNativeTarget "KodiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914BACFE1CF086A600360E77 /* Debug */,
+				914BACFF1CF086A600360E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		914BAD001CF086A600360E77 /* Build configuration list for PBXNativeTarget "KodiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914BAD011CF086A600360E77 /* Debug */,
+				914BAD021CF086A600360E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		914BACD91CF086A600360E77 /* Kodi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				914BACDA1CF086A600360E77 /* Kodi.xcdatamodel */,
+			);
+			currentVersion = 914BACDA1CF086A600360E77 /* Kodi.xcdatamodel */;
+			path = Kodi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 914BACC71CF086A600360E77 /* Project object */;
+}
